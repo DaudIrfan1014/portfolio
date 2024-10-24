@@ -26,9 +26,10 @@ a {
 #main {
   background-color: black;
   overflow: hidden;
+
 }
 #page1 {
-  height: 150vh;
+  height: 117vh;
   position: relative;
   overflow: hidden;
   width: 100vw;
@@ -281,12 +282,12 @@ a {
 }
 #page2-right h2 {
   margin-top: 2vh;
-  font-size: 15vh;
-  font-weight: 400;
+  font-size: 11vh;
+  font-weight: 900;
   font-family: canopee;
   letter-spacing: -3px;
   text-decoration: underline;
-  text-decoration-thickness: 0.3px;
+  text-decoration-thickness: 17.3px;
 }
 
 #page3 {
@@ -302,24 +303,26 @@ a {
 #page3 h1 {
   padding: 0px 30px;
   font-size: 22vw;
-  letter-spacing: -13px;
+  letter-spacing: -16px;
   font-family: Domain;
   font-weight: 100;
   background-color: #1c1b19;
   width: fit-content;
   color: #c4bcb3;
-  transform: scale(1, 1.1);
+  transform: scale(1, 1.2);
   margin-left: 2%;
   line-height: 300px;
   text-align: center;
+  padding: 4vh;
 }
 #space {
   padding-top: 30px;
 }
 #page3 img {
   position: absolute;
-  top: -2%;
+  top: -5%;
   right: 3%;
+  height: 100%;
 }
 #page4 {
   width: 100%;
@@ -634,8 +637,7 @@ a {
   line-height: 300px;
   text-align: center;
   transform: scale(1, 1.2);
-  padding-left: 2vw;
-  padding-right: 2vw;
+  padding: 4vw;
 }
 #page6 #div4 #para p {
   text-align: left;
