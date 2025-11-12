@@ -26,10 +26,9 @@ a {
 #main {
   background-color: black;
   overflow: hidden;
-
 }
 #page1 {
-  height: 117vh;
+  height: 140vh;
   position: relative;
   overflow: hidden;
   width: 100vw;
@@ -200,7 +199,7 @@ a {
 #page2 {
   margin-top: -10px;
   width: 100%;
-  height: 150vh;
+  height: 163vh;
   display: flex;
   justify-content: center;
   background-image: linear-gradient(
@@ -281,13 +280,13 @@ a {
   border: 2px solid #1c1b19;
 }
 #page2-right h2 {
-  margin-top: 2vh;
-  font-size: 11vh;
+  margin-top: 8vh;
+  font-size: 14.5vh;
   font-weight: 900;
   font-family: canopee;
   letter-spacing: -3px;
   text-decoration: underline;
-  text-decoration-thickness: 17.3px;
+  text-decoration-thickness: 7.3px;
 }
 
 #page3 {
@@ -311,7 +310,7 @@ a {
   color: #c4bcb3;
   transform: scale(1, 1.2);
   margin-left: 2%;
-  line-height: 300px;
+  line-height: 260px;
   text-align: center;
   padding: 4vh;
 }
@@ -320,9 +319,9 @@ a {
 }
 #page3 img {
   position: absolute;
-  top: -5%;
-  right: 3%;
-  height: 100%;
+  top: -6%;
+  right: 1%;
+  height: 110%;
 }
 #page4 {
   width: 100%;
@@ -615,8 +614,8 @@ a {
   margin-top: 0px;
   width: 100%;
   line-height: 160px;
-  letter-spacing: -15px;
-  font-size: 35vh;
+  letter-spacing: -20px;
+  font-size: 33vh;
   transform: scale(1, 2);
   font-weight: 900;
   padding-left: 2vw;
@@ -629,12 +628,12 @@ a {
 }
 #page6 #div4 #text h1 {
   font-size: 24vw;
-  letter-spacing: -13px;
+  letter-spacing: -19px;
   font-family: Canopee;
   font-weight: 100;
   background-color: #1c1b19;
   color: #c4bcb3;
-  line-height: 300px;
+  line-height: 252px;
   text-align: center;
   transform: scale(1, 1.2);
   padding: 4vw;
@@ -777,13 +776,14 @@ h2 {
   }
   #page1 h1 {
     font-family: canopee;
+    /* text-align: center; */
     margin-top: 3vh;
-    font-size: 34vw;
+    font-size: 590px;
     font-weight: 100;
     background-color: #1c1c19;
     color: #c4bcb3;
-    letter-spacing: -1vw;
-    line-height: 23vh;
+    letter-spacing: -35px;
+    line-height: 550px;
     width: 96%;
     text-align: center;
     margin-left: 2%;
