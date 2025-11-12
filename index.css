@@ -1043,9 +1043,12 @@ h2 {
     transform: scale(1, 1);
     padding: 0;
   }
+  #page6 #div4 #para {
+    margin-top: 3vh;
+  }
   #page6 #div4 #para p {
     text-align: left;
-    margin-top: 0vh;
+    margin-top: 1vh;
     font-weight: 100;
     padding-left: 0px;
     font-family: Edit;
