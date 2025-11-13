@@ -10,6 +10,9 @@
   font-family: canopee;
   src: url(./Canopee.ttf);
 }
+body::-webkit-scrollbar {
+  display: block;
+}
 * {
   margin: 0;
   padding: 0;
