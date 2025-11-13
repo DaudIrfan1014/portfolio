@@ -11,7 +11,7 @@
   src: url(./Canopee.ttf);
 }
 body::-webkit-scrollbar {
-  display: block;
+  display: none;
 }
 * {
   margin: 0;
