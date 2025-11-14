@@ -44,10 +44,17 @@ a {
     url("https://uploads-ssl.webflow.com/5f2429f172d117fcee10e819/614f353f1e11a6a7afdd8b74_6059a3e2b9ae6d2bd508685c_pt-texture-2.jpg");
 }
 #nav {
+  position: fixed;
+  z-index: 10;
+  background-image: linear-gradient(
+      rgba(198, 188, 179, 0.6),
+      rgba(198, 188, 179, 0.6)
+    ),
+    url("https://uploads-ssl.webflow.com/5f2429f172d117fcee10e819/614f353f1e11a6a7afdd8b74_6059a3e2b9ae6d2bd508685c_pt-texture-2.jpg");
   height: 11vh;
   width: 100%;
   padding: 0 30px;
-  border-bottom: 3px solid #9a958d;
+  border-bottom: 3px solid #000000;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -74,6 +81,7 @@ a {
   height: 350px;
   justify-content: space-between;
   padding: 40px 60px;
+  margin-top: 10vh;
 }
 #elem1 {
   width: 30%;
@@ -82,8 +90,8 @@ a {
 #elem2 {
   width: 25%;
   height: 100%;
-  border-left: 2px solid #9a958d;
-  border-right: 2px solid #9a958d;
+  border-left: 2px solid #000000;
+  border-right: 2px solid #000000;
   padding: 20px 20px;
   text-align: center;
 }
@@ -95,13 +103,13 @@ a {
   height: 60%;
   width: 100%;
   overflow: hidden;
-  border: 2px solid gray;
+  border: 2px solid black;
 }
 #elem3 #imgDiv {
   height: 60%;
   width: 100%;
   overflow: hidden;
-  border: 2px solid gray;
+  border: 2px solid black;
 }
 #imgDiv img {
   height: 100%;
@@ -147,6 +155,7 @@ a {
   margin-top: 10px;
   font-weight: 400;
   color: #1d1d1b;
+  text-align: justify;
   font-family: Edit;
   font-size: 1.2vw;
   font-weight: 300;
@@ -157,6 +166,7 @@ a {
   font-weight: 400;
   color: #1d1d1b;
   font-family: Edit;
+  text-align: justify;
   font-size: 1.2vw;
   font-weight: 300;
   line-height: 1.5vw;
@@ -171,6 +181,7 @@ a {
   font-family: Edit;
   margin-top: 10px;
   font-weight: 100;
+  text-align: center;
   letter-spacing: -0.03em;
   font-size: 2.6vw;
   line-height: 3vw;
@@ -190,11 +201,11 @@ a {
 #page1 h1 {
   font-family: canopee;
   margin-top: 3vh;
-  font-size: 630px;
+  font-size: 488px;
   font-weight: 100;
   background-color: #1c1c19;
   color: #c4bcb3;
-  letter-spacing: -35px;
+  letter-spacing: -28px;
   line-height: 550px;
   width: 96%;
   text-align: center;
@@ -217,7 +228,7 @@ a {
   display: flex;
   flex-direction: column;
   padding: 0px 60px;
-  border-right: 10px soild #1c1b19;
+  border-right: 10px soild #000000;
 }
 #page2-left #p2imgDiv {
   width: 100%;
@@ -226,7 +237,7 @@ a {
   background-image: url("https://uploads-ssl.webflow.com/5f2429f172d117fcee10e819/605c6ce3bc0c7d1cd4ca847e_avatar-star-p-800.jpeg");
   background-size: cover;
   object-fit: cover;
-  border: 2px solid #1c1b19;
+  border: 2px solid #000000;
 }
 #p2imgDiv {
   display: block;
@@ -244,7 +255,7 @@ a {
   text-decoration-thickness: 0.9px;
 }
 #page2-left h3 span {
-  font-size: 15vw;
+  font-size: 10vw;
   line-height: 8vw;
   font-weight: 100;
   color: #1d1d1b;
@@ -254,7 +265,9 @@ a {
 }
 #page2-left h6 {
   font-family: Edit;
+  text-align: justify;
   font-size: 30px;
+  padding: 1vw;
   font-weight: 100;
   margin-top: 20px;
 }
@@ -271,7 +284,7 @@ a {
   width: 60%;
   padding: 0px 60px;
   text-align: left;
-  border-left: 2px solid #52504d60;
+  border-left: 2px solid #000000;
 }
 #page2-right #p2imgDiv {
   margin-top: 25px;
@@ -281,14 +294,14 @@ a {
   background-image: url("https://uploads-ssl.webflow.com/5f2429f172d117fcee10e819/605c62f4c78c4ba46a1268be_avatar-1-p-2000.jpeg");
   background-size: cover;
   object-fit: cover;
-  border: 2px solid #1c1b19;
+  border: 2px solid #000000;
 }
 #page2-right h2 {
-  margin-top: 8vh;
-  font-size: 14.5vh;
+  margin-top: 3vh;
+  font-size: 13.5vh;
   font-weight: 900;
   font-family: canopee;
-  letter-spacing: -3px;
+  letter-spacing: -2px;
   text-decoration: underline;
   text-decoration-thickness: 7.3px;
 }
@@ -304,10 +317,9 @@ a {
     url("https://uploads-ssl.webflow.com/5f2429f172d117fcee10e819/614f353f1e11a6a7afdd8b74_6059a3e2b9ae6d2bd508685c_pt-texture-2.jpg");
 }
 #page3 h1 {
-  padding: 0px 30px;
-  font-size: 22vw;
+  font-size: 19vw;
   letter-spacing: -16px;
-  font-family: Domain;
+  font-family: canopee;
   font-weight: 100;
   background-color: #1c1b19;
   width: fit-content;
@@ -323,7 +335,7 @@ a {
 }
 #page3 img {
   position: absolute;
-  top: -6%;
+  top: -5%;
   right: 1%;
   height: 110%;
 }
@@ -339,7 +351,7 @@ a {
     url("https://uploads-ssl.webflow.com/5f2429f172d117fcee10e819/614f353f1e11a6a7afdd8b74_6059a3e2b9ae6d2bd508685c_pt-texture-2.jpg");
 }
 #page4left #div1 #elemdiv1 {
-  border-right: 2px solid #9a958d;
+  border-right: 2px solid #000000;
   padding: 20px 40px;
   text-align: left;
   margin-left: 2%;
@@ -352,6 +364,7 @@ a {
 }
 #page4left #div1 #elemdiv1 h2 {
   font-family: canopee;
+  margin-top: 10vh;
   font-size: 60px;
   font-weight: 600;
   letter-spacing: 0px;
@@ -379,7 +392,7 @@ a {
 #page4left #div1 #elem2div1 #imgDiv {
   width: 100%;
   overflow: hidden;
-  border: 2px solid gray;
+  border: 2px solid black;
 }
 #page4left #div1 #elem2div1 #imgDiv img {
   height: 100%;
@@ -399,6 +412,7 @@ a {
   font-family: Edit;
   font-size: 1.2vw;
   font-weight: 300;
+  text-align: justify;
   line-height: 1.5vw;
 }
 
@@ -407,7 +421,7 @@ a {
   padding: 20px;
   display: flex;
   flex-direction: column;
-  border-right: 2px solid #9a958d;
+  border-right: 2px solid #000000;
 }
 #page4left #div1 {
   display: flex;
@@ -428,7 +442,7 @@ a {
   font-size: 5.5vw;
   font-weight: 700;
   transform: scale(1, 1.3);
-  letter-spacing: -0.2vh;
+  letter-spacing: -0.6vh;
 }
 #page4right span h2 {
   transform: scale(1, 1);
@@ -440,6 +454,7 @@ a {
   text-align: left;
   margin-top: 30px;
   font-weight: 100;
+  text-align: justify;
   padding-left: 30px;
   font-family: Edit;
   font-size: 4.5vh;
@@ -631,8 +646,8 @@ a {
   margin-bottom: 0%;
 }
 #page6 #div4 #text h1 {
-  font-size: 24vw;
-  letter-spacing: -19px;
+  font-size: 18vw;
+  letter-spacing: -18px;
   font-family: Canopee;
   font-weight: 100;
   background-color: #1c1b19;
@@ -646,9 +661,10 @@ a {
   text-align: left;
   margin-top: -4vh;
   font-weight: 100;
+  text-align: justify;
   padding-left: 30px;
   font-family: Edit;
-  font-size: 4.5vh;
+  font-size: 3.2vh;
 }
 #page6 #div4 #para h3 {
   text-align: left;
@@ -656,13 +672,13 @@ a {
   transform: scale(1.2, 1.2);
   font-weight: 100;
   font-family: canopee;
-  font-size: 15.5vh;
+  font-size: 23.5vh;
   margin-bottom: 30px;
   margin-left: 39px;
 }
 #page7 {
   background-color: #c4bcb3;
-  height: 50vh;
+  height: 62vh;
   position: relative;
   overflow: hidden;
   width: 100vw;
@@ -683,7 +699,7 @@ a {
 }
 #page8 {
   background-color: #c4bcb3;
-  height: 25vh;
+  height: 22vh;
   position: relative;
   overflow: hidden;
   width: 100%;
@@ -700,7 +716,7 @@ a {
 }
 #page8 h1 {
   font-size: 13vh;
-  font-family: domain;
+  font-family: Edit;
   font-weight: 100;
   padding: 1.5vw;
   display: inline-block;
@@ -753,7 +769,7 @@ a {
   text-align: left;
   display: flex;
   justify-content: baseline;
-  gap: 10px;
+  gap: 30px;
 }
 #page9 a {
   color: #1c1c19;
@@ -769,11 +785,12 @@ h2 {
   #page1 {
     height: 35vh;
   }
-  #page1 #nav h5 {
+  #nav h5 {
     display: none;
   }
-  #page1 #nav img {
-    width: 90%;
+  #nav img {
+    width: 60%;
+    height: 100%;
   }
   #page1 #elemes {
     display: none;
@@ -781,8 +798,8 @@ h2 {
   #page1 h1 {
     font-family: canopee;
     /* text-align: center; */
-    margin-top: 3vh;
-    font-size: 145px;
+    margin-top: 14vh;
+    font-size: 110px;
     font-weight: 100;
     background-color: #1c1c19;
     color: #c4bcb3;
@@ -830,7 +847,7 @@ h2 {
     text-decoration-thickness: 0.9px;
   }
   #page2-left h3 span {
-    font-size: 38vw;
+    font-size: 29vw;
     line-height: 9vw;
     font-weight: 100;
     color: #1d1d1b;
@@ -839,7 +856,7 @@ h2 {
     letter-spacing: -6px;
   }
   #page2-left h6 {
-    text-align: center;
+    text-align: justify;
     font-family: Edit;
     font-size: 2.9vh;
     font-weight: 100;
@@ -868,8 +885,9 @@ h2 {
     border: 2px solid #1c1b19;
   }
   #page2-right h2 {
-    margin-top: 2vh;
-    font-size: 5.5vh;
+    margin-top: 3vh;
+    font-size: 5vh;
+    text-align: center;
     font-weight: 600;
     font-family: canopee;
     letter-spacing: 0px;
@@ -908,6 +926,7 @@ h2 {
   #page4left #div1 #elemdiv1 h3 {
     font-family: Edit;
     margin-top: 10px;
+    text-align: justify;
     font-weight: 100;
     letter-spacing: -0.03em;
     font-size: 9vw;
@@ -1012,9 +1031,10 @@ h2 {
   }
   #wrapdiv #div12 h3 {
     font-weight: 100;
+    margin-left: 2vh;
     letter-spacing: -1px;
     font-family: canopee;
-    font-size: 11.5vh;
+    font-size: 6.5vh;
   }
   #page6 #imgdiv3 {
     display: none;
@@ -1022,8 +1042,8 @@ h2 {
   #page6 #div3 #textdiv3 h2 {
     margin-top: 0px;
     line-height: 0px;
-    letter-spacing: -15px;
-    font-size: 13vh;
+    letter-spacing: -5px;
+    font-size: 10vh;
     transform: scale(1, 1);
     font-weight: 900;
     padding-left: 0vw;
@@ -1037,7 +1057,7 @@ h2 {
   }
 
   #page6 #div4 #text h1 {
-    font-size: 35vw;
+    font-size: 18vw;
     letter-spacing: -1px;
     font-family: Canopee;
     font-weight: 100;
@@ -1051,26 +1071,29 @@ h2 {
     margin-top: 3vh;
   }
   #page6 #div4 #para p {
-    text-align: left;
-    margin-top: 1vh;
+    text-align: justify;
+    margin-top: -5vh;
     font-weight: 100;
-    padding-left: 0px;
+
     font-family: Edit;
     font-size: 3.5vh;
+    padding: 5vw;
   }
   #page6 #div4 #para h3 {
     text-align: left;
+    margin-top: -2vh;
+    margin-left: 10px;
     padding-left: 0px;
     transform: scale(1, 1);
     font-weight: 100;
     font-family: canopee;
-    font-size: 13.5vh;
-    margin: 0;
+    font-size: 17.5vh;
   }
   #page7 {
     background-color: #c4bcb3;
-    height: 100vh;
+    height: 90vh;
     position: static;
+    margin-top: 20vh;
     overflow: hidden;
     width: 100vw;
 
@@ -1156,7 +1179,7 @@ h2 {
     animation-name: scroller;
     animation-duration: 8s;
     animation-timing-function: linear;
-    color: #52504d;
+    color: #000000;
     animation-iteration-count: infinite;
   }
   #page8 h1 span {
@@ -1183,5 +1206,9 @@ h2 {
     display: flex;
     justify-content: baseline;
     gap: 10px;
+  }
+  #page9 div h1 {
+    margin-left: -1%;
+    margin-top: 2vh;
   }
 }
