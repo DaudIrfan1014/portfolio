@@ -29,7 +29,6 @@ a {
 #main {
   background-color: black;
   overflow: hidden;
-  max-width: 1540px;
 }
 #page1 {
   height: 140vh;
